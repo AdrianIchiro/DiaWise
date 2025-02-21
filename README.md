@@ -1,4 +1,4 @@
-# ℹ️ Tentang DiaWise
+# ℹ️ DiaWise
 
 <p align="center">
     <img src="logo.png" alt="Mendeteksi Diabetes dengan AI" width="300">
