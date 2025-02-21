@@ -1,6 +1,13 @@
 import pickle
 import streamlit as st
 
+st.set_page_config(
+    page_title="DiaWise - Check you diabetes with AI",
+    page_icon="logo.png",
+    layout="centered"
+)
+
+
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
 menu = st.sidebar.radio("Menu", ["🏠 Home", "ℹ️ Tentang Aplikasi"])
